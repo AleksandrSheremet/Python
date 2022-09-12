@@ -444,7 +444,7 @@ print(*numbers)                     #Выводит список без [] ск�
 
 ```python
 def mein():
-	show_interest(rate=0.01,periods=10,principal=int(input('Введите сумму '))  )
+	show_interest(rate=0.01,periods=10,principal=int(input('Введите сумму ')))
 	
 def show_interest(principal, rate, periods):
 	interest = principal * rate * periods
